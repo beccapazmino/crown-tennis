@@ -1,0 +1,269 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+  
+  /******************************************
+  /* BASE STYLES
+  /*******************************************/
+  
+  body {
+  
+  }
+  
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  main{
+      width: 100%;
+      height: 400px;
+      float: left;
+      background-color: rgb(0, 146, 182);
+      color: white;
+  }
+  nav{
+      width: 100%;
+      float: left;
+      background-color:rgb(0,146,182);
+      color: white;
+      text-align: left;
+      font-family: Open Sans, sans serif;
+      font-weight: bold;
+  }
+  
+   nav a{
+       text-decoration: none;
+       font-family: Open Sans, sans-serif;
+       font-size: 12px;
+       color: white;
+       background-color: rgb(0, 146, 182);
+   }
+
+ .classes{
+     width: 50%;
+     float: left;
+     margin-top: 15px;
+     margin-left: 35px;
+ }
+ .classes a{
+    margin: 10px;
+ }
+ .classes > a{
+     margin-left: 35px;
+ }
+ .donate{
+     width: 30%;
+     float: left;
+     margin-top: 15px;
+     margin-left: 210px;
+ }
+ .donate a{
+    border: 2px solid white;
+    background-color: white;
+    color: rgb(0, 146, 182);
+    padding: 3px 5px;
+    margin-left: 200px;
+ }
+
+.grit{
+    text-align: center;
+    padding: 50px;
+    font-family: Oswald, sans-serif;
+}
+.grit p{
+    padding: 0px 125px 25px;
+    font-family: Open Sans, sans serif;
+    width: 100%;
+    float: left;
+}
+.grit img{
+    width: 225px;
+    height: 200px;
+}
+span{
+    font-weight: lighter;
+    font-family: Open Sans, sans serif;
+    width: 100%;
+    float: left;
+
+}
+span + span{
+    width: 100%;
+    float: left;
+    padding-top: 75px;
+    padding-bottom: 30px;
+    font-family: Open Sans, sans;
+    font-weight: normal;
+    font-style: italic;
+    color: rgb(70, 75, 90);
+    font-size: 9px;
+
+}
+.Why{
+    width: 100%;
+    float: left;
+    background-color: white;
+    color: black;
+    font-family: Oswald, sans-serif;
+    text-align: center;
+    height: 475px;
+    margin-top: 110px;
+    font-style: 27px;
+    margin-bottom: 24px;
+}
+.Why p{
+    font-family: Open Sans, sans;
+    font-style: 14px;
+    width: 50%;
+    float: left;
+    margin-left: 60px;
+}
+.Why img{
+width: 350px;
+float: left;
+margin-left: 75px;
+margin-top: 20px;
+}
+.Visit{
+    width: 100%;
+    float: left;
+    height: 750px;
+    background-color: rgb(219, 223, 226);
+    color: black;
+    text-align: center;
+    font-family: Oswald, sans-serif;
+}
+section .Visit{
+    margin: 0px 160px;
+}
+.VisitUs img{
+    width: 350px; 
+    height: 325px;
+    margin-top: 105px;
+    margin-bottom: 10px;
+    margin-left: 160px;
+    margin-right: 50px;
+}
+.VisitYou img{
+    width: 350px; 
+    height: 325px;
+    margin-top: 105px;
+    margin-bottom: 10px;
+    margin-right: 160px;
+    margin-left: 50px;
+}
+.VisitUs{
+    width: 50%; 
+    float: left;
+}
+.VisitYou{
+    width: 50%;
+    float: left;
+}
+.Visit h3{
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+.VisitUs h3{
+    margin-left: 260px;
+    margin-right: 145px;
+}
+.VisitYou h3{
+    margin-right: 260px;
+    margin-left: 145px;
+}
+.Visit p{
+    padding-bottom: 25px;
+    font-family: Open Sans, sans-serif;
+    font-size: 14px;
+}
+.Visit .VisitUs p{
+    margin-left: 130px;
+    margin-right: 30px;
+}
+.Visit .VisitYou p{
+    margin-right: 130px;
+    margin-left: 30px;
+}
+.Visit a{
+    text-decoration: none;
+    font-family: Oswald, sans-serif;
+    color: black;
+    border: 1px solid black;
+    padding: 17px 48px;
+}
+.Visit .VisitUs a{
+    margin-left: 225px;
+    margin-right: 120px;
+}
+.Visit .VisitYou a{
+    margin-right: 225px;
+    margin-left: 120px;
+}
+.Volunteer{
+    width: 100%;
+    height: 700px;
+    float: left;
+    background: white;
+    color: black;
+    text-align: center;
+    font-family: Oswald, sans-serif;
+}
+.Volunteer h2{
+    font-size: 27px;
+}
+.Volunteer ul{
+    font-family: Open Sans, sans serif;
+    margin: 3px 285px 55px;
+}
+.Volunteer ul li{
+    list-style: none;
+    color: black;
+    border: 1px solid black;
+    padding: 17px 48px;
+    font-family: Open Sans;
+}
+.bottom {
+      width: 100%;
+      float: left;
+      background-color: rgb(0, 146, 182);
+      height: 350px;
+      text-align: center;
+  }
+.address{
+    margin-top: 40px;
+    font-family: Open Sans, sans serif;
+    color: white;
+    font-size: 12px;
+    width: 100%;
+    float: left;  
+    text-align: left;
+    margin-left: 100px;
+}
+
+.address h3{
+    font-size: 20px;
+}
+.address a{
+    text-decoration: none;
+    color: white;
+}
+
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
