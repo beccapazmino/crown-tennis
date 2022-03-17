@@ -267,3 +267,76 @@ section .Visit{
   /******************************************
   /* ADDITIONAL STYLES
   /*******************************************/
+
+  @media (max-width: 800px) { 
+        nav a{
+            display: none;
+      }
+      .Why p{
+          display: flexbox;
+          flex-shrink: inherit;
+      }
+      .Why img{
+        display: flexbox;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+    .Visit{
+        display: flexbox;
+        align-items: center;
+    }
+  }
+
+  @media (max-width: 1300px){
+      nav{
+          display: flexbox;
+          -ms-flex-item-align: auto;
+          flex-flow: row;
+          flex-wrap: nowrap;
+      }
+      .donate{
+          display: none;
+      }
+      .Why{
+          height: 800px;
+          display: flexbox;
+          align-items: center;
+      }
+      .Why img{
+          display: flexbox;
+          align-content: center;
+          flex-direction: row;
+      }
+      .Why p{
+          width: 100%;
+          text-align: center;
+          margin: 0px;
+          flex-flow: row;
+          display: flexbox;
+          align-content: center;
+      }
+      .Why h2{
+          text-align: center;
+      }
+  }
+
+  @media (max-width: 1090px){
+      .VisitUs img{
+          display: none;
+      }
+      .VisitYou img{
+          display: none;
+      }
+      .Visit a{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-basis: auto;
+        flex-shrink: inherit;
+        flex-flow: row;
+      }
+
+    .Volunteer {
+        display: none;
+    }
+
+  }
